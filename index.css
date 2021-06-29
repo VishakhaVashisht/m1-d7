@@ -3,28 +3,75 @@
     padding: 0;
 }
 body{
-    background-color:  #000000;
-    color: #ffffff;
     font-family: 'Viaoda Libre', cursive;
     display: block;
+    overflow-x: hidden;
 }
+a{text-decoration: none;
+    color:#000000;
+    float: none;
+}
+
 #container {
     padding: 30px;
     float: left;
 }
 
-header{padding: 45px;}
+header {
+    padding: 17px;
+    text-align: center;
+    border-bottom: 2px #000000 solid;
+}
 .table-content{
     float: left;
     display: block;
+    padding: 41px 4px;
 }
+
 .table-content thead{
     text-align: center;
 }
 .table-content tbody{
     width: 100%;
 }
-.table-content tr{
+.table-content tr {
     float: left;
-    width: 30%;
+    width: 42%;
+    padding: 20px;
+    text-align: center;
+    
+}
+.table-content td img{
+    width: 100px;height: 104px;
+}
+
+.table-content td {
+    border: 1px solid;
+    padding: 11px;
+    text-align: center;
+}
+.table-content h3 {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+footer section{
+    float: left;
+    width: 100%;
+    border-top:2px solid #000 ;
+}
+footer section{padding: 20px 0;}
+address {
+    float: left;
+    width: 43%;
+}
+
+footer section div{
+    float: left;
+    width: 43%;
+}
+
+textarea {
+    width: 100%;
+    height: 90px;
 }
